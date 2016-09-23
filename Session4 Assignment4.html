@@ -1,0 +1,55 @@
+<!--–Assignment: CSS3 gradient (linear and radial)-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS3 - Session4 - Assignment4</title>
+	
+	<style type="text/css">
+	
+		    div{
+				height: 100px;
+				width: 100px;
+				border-radius: 25px;
+				float: left;
+				margin: 20px;
+				
+				cursor: center;
+				line-height: 100px;
+				text-align: center;
+		    }
+			
+			.Linear{
+				
+				
+				background: -webkit-radial-gradient(to right, red,green);
+				background: linear-gradient(to right, red,green);
+				margin-left: 400px;
+							
+			}
+			
+			.Circle{
+				
+				background: -webkit-radial-gradient(top,circle,red,yellow,green);
+				background: radial-gradient(top,circle,red,yellow,green);
+			}
+			
+			.Ellipse{
+			
+				background: -webkit-radial-gradient(center top, ellipse cover, red,yellow,green);
+				background: radial-gradient(center top, ellipse cover, red,yellow,green);
+						
+			}
+			
+	</style>
+</head>
+
+<body>
+
+	<div class="Linear"> Box</div>
+	<div class="Circle"> Box</div>
+	<div class="Ellipse">Box</div>
+
+</body>
+
+</html>
